@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  TF_WORKSPACE: ${{ github.repository }}
-
 jobs:
   terraform:
     name: "Terraform"
